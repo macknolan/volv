@@ -1,0 +1,318 @@
+/* General */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+h1  {
+
+}
+
+h2  {
+  font-weight: 700;
+  font-size: 40px;
+  color: #333333;
+}
+
+h5  {
+  font-weight:700;
+  color: #C1382D;
+  font-size: 32px;
+}
+
+h6  {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+
+/* Buttons */
+a.btn-default  {
+  padding: 10px 30px 10px 30px;
+  background-color: #C1382D;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: solid 0px #ffffff;
+  border-radius: 0px;
+}
+
+a:visited.btn-default  {
+  background-color: #C1382D;
+  color: #ffffff;
+}
+
+a:hover.btn-default  {
+  background-color: rgba(165,22,32,0.9);
+  color: #ffffff;
+}
+
+/* media */
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  #facebook { display: none; }
+  .mobile-hide{ display: none; }
+}
+
+/* Contact Form */
+input {
+  width: 100%;
+}
+
+
+
+/* Navbar */
+.navbar-brand {
+  padding: 10px 0px 10px 0px;
+}
+
+.navbar-homepage  {
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+.navbar-homepage li a:link {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-homepage li a:visited {
+  color: #000000;
+}
+
+a:hover#main-menu {
+  color: #C1382D;
+}
+
+
+/* Jumbotron */
+
+.jumbotron-header {
+  background-image: url("../images/home_header.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 200px 0px 40px 0px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.jumbotron-header h1  {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron-header h2  {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.jumbotron-header h4  {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: solid 4px #C1382D;
+  padding: 0px 0px 10px 0px;
+}
+
+.jumbotron-team {
+  background-image: url("../images/Team.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 200px 0px 40px 0px;
+  margin: 0px;
+}
+
+.jumbotron-team h1,h2,h3,h4,h5,h6,p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron-team h2  {
+  font-weight: 700;
+}
+
+.jumbotron-team h4 {
+  border-bottom: solid 4px #C1382D;
+  padding: 0px 0px 10px 0px;
+}
+
+.jumbotron-team p {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* Section 1 */
+.section_1  {
+  padding: 20px 0px 20px 0px;
+}
+
+.section_1 h2 {
+  color: #333333;
+}
+
+
+
+
+/* Section 2 */
+.section_2  h2  {
+  color: #333333;
+}
+
+.spacing-row  {
+  padding: 20px 0px 20px 0px;
+}
+
+/* Section 3 */
+.section_3  {
+  padding: 20px 0px 40px 0px;
+}
+
+
+
+/* Section 4 */
+.section_4  {
+  background-color: #E5E5E5;
+  padding: 40px 0px 40px 0px;
+}
+
+.section-4-row  {
+  padding: 0px 0px 15px 0px;
+}
+
+.section_4 h2 {
+  color: #333333;
+}
+
+.section_4 h5 {
+  color: #C1382D;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #C1382D;
+  padding: 40px 0px 40px 0px;
+}
+
+.footer h6  {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.footer p a {
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Team */
+.section_1_team {
+  color: #333333;
+  padding: 40px 0px 40px 0px;
+}
+
+.section_1_team h2, h6, p  {
+  color: #333333;
+}
+
+.section_1_team h5  {
+  color: #C1382D;
+}
+
+.section_2_team {
+  background-color: #E5E5E5;
+  padding: 40px 0px 40px 0px;
+}
+
+.section_2_team h5 {
+    color: #C1382D;
+}
+
+.section_3_team {
+  padding: 40px 0px 40px 0px;
+}
+
+.section_3_team h5 {
+  color: #C1382D;
+}
+
+/* Partygras Page */
+
+.container-partygras  {
+    height: 100vh;
+}
+
+.full-page-image  {
+  background: -webkit-linear-gradient(left top, rgba(193, 56, 45, 0.65) 0%, rgba(193, 56, 45, 0.3) 59%, rgba(252, 186, 4, 0.3) 100%), url("../images/14305353_1000584180039731_6591310541410568223_o.jpg") no-repeat center center; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(193, 56, 45, 0.65) 0%, rgba(193, 56, 45, 0.3) 59%, rgba(252, 186, 4, 0.3) 100%), url("../images/14305353_1000584180039731_6591310541410568223_o.jpg") no-repeat center center; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(193, 56, 45, 0.65) 0%, rgba(193, 56, 45, 0.3) 59%, rgba(252, 186, 4, 0.3) 100%), url("../images/14305353_1000584180039731_6591310541410568223_o.jpg") no-repeat center center; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(193, 56, 45, 0.65) 0%, rgba(193, 56, 45, 0.3) 59%, rgba(252, 186, 4, 0.3) 100%), url("../images/14305353_1000584180039731_6591310541410568223_o.jpg") no-repeat center center; /* Standard syntax */
+  background-size: cover;
+}
+
+.partygras_header {
+  padding: 900px 0px 75px 0px;
+  text-align: left;
+}
+
+.partygras_header h4  {
+  border-bottom: solid 4px #C1382D;
+  padding: 0px 0px 10px 0px;
+}
+
+/* Meltdown Page */
+.container-meltdown  {
+    height: 100vh;
+}
+
+.meltdown_header  {
+  padding: 700px 0px 75px 0px;
+  text-align: left;
+}
+
+.full-page-image-meltdown  {
+  background: -webkit-linear-gradient(left top, rgba(4, 169, 217, 0.65) 0%, rgba(4, 169, 217, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url("../images/14310584_1001535476611268_181390969599698693_o.jpg") no-repeat center center; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba(4, 169, 217, 0.65) 0%, rgba(4, 169, 217, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url("../images/14310584_1001535476611268_181390969599698693_o.jpg") no-repeat center center; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba(4, 169, 217, 0.65) 0%, rgba(4, 169, 217, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url("../images/14310584_1001535476611268_181390969599698693_o.jpg") no-repeat center center; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgba(4, 169, 217, 0.65) 0%, rgba(4, 169, 217, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url("../images/14310584_1001535476611268_181390969599698693_o.jpg") no-repeat center center; /* Standard syntax */
+  background-size: cover;
+}
+
+.meltdown_header h4 {
+  border-bottom: solid 4px rgba(4,169,217,1);
+  padding: 0px 0px 10px 0px;
+}
+
+a.meltdown-btn {
+  background-color: rgba(4,169,217,1);
+  padding: 10px 30px 10px 30px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: solid 0px #ffffff;
+  border-radius: 0px;
+}
+
+a.meltdown-btn {
+  background-color: rgba(4,169,217,1);
+  padding: 10px 30px 10px 30px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: solid 0px #ffffff;
+  border-radius: 0px;
+}
+
+a:hover.meltdown-btn  {
+  color: #ffffff;
+}
