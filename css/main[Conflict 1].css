@@ -279,7 +279,7 @@ a:hover#main-menu {
 /* Partygras Page */
 
 .container-partygras  {
-  padding: 75px 20px 0px 20px;
+  padding: 75px 0px 0px 0px;
 }
 
 .full-page-image  {
@@ -292,6 +292,7 @@ a:hover#main-menu {
 }
 
 .partygras_header {
+  padding: 300px 0px 75px 0px;
   text-align: left;
 }
 
@@ -302,10 +303,11 @@ a:hover#main-menu {
 
 /* Meltdown Page */
 .container-meltdown  {
-  padding: 75px 20px 0px 20px;
+
 }
 
 .meltdown_header  {
+  padding: 300px 0px 75px 0px;
   text-align: left;
 }
 

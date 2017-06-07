@@ -1,0 +1,88 @@
+html  {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  font-size: 16px;
+}
+
+h1  {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+h2  {
+  font-weight: 700;
+  font-size: 40px;
+  color: #333333;
+}
+
+h5  {
+  font-weight:700;
+  color: #C1382D;
+  font-size: 32px;
+}
+
+h6  {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.errorpage {
+  height: 100vh;
+  color: rgba(255,255,255,1);
+}
+
+ .errorpage-401 {
+   background: -webkit-linear-gradient(left top, rgba(192, 39, 45, 0.85) 0%, rgba(192, 39, 45, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, rgba(192, 39, 45, 0.85) 0%, rgba(192, 39, 45, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, rgba(192, 39, 45, 0.85) 0%, rgba(192, 39, 45, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, rgba(192, 39, 45, 0.85) 0%, rgba(192, 39, 45, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%); /* Standard syntax */
+   background-size: cover;
+}
+
+.errorpage-401-block {
+  text-align: left;
+  padding: 200px 0px 200px 0px;
+}
+
+.errorpage-401-block h1, h2, h3, h4, h5, h6, p, ul, li {
+  color: rgba(255,255,255,1);
+}
+
+.errorpage-401-block ul {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.errorpage-401-right {
+  padding: 150px 0px 0px 0px;
+
+}
+
+.errorpage-401-menu li {
+  font-size: 1.2rem;
+}
+
+.errorpage-401-menu a:link {
+  color: rgba(255,255,255,1);
+}
+
+.errorpage-401-menu a:hover {
+  color: rgba(255,255,255,1);
+}
+
+@media only screen and (max-width: 480px) {
+  .errorpage-401-right  {
+    display: none;
+  }
+}
